@@ -1,0 +1,57 @@
+# Changing Window Focus
+
+ctrl - k : yabai -m window --focus south
+ctrl - i : yabai -m window --focus north
+ctrl - j : yabai -m window --focus west
+ctrl - l : yabai -m window --focus east
+
+# Modifying Layout
+# shift + ctrl - h : yabai -m space --rotate 270
+# shift + ctrl - y : yabai -m space --mirror y-axis
+# shift + ctrl - x : yabai -m space --mirror x-axis
+shift + ctrl - f : yabai -m window --toggle float
+
+# Modifying Window Size
+ctrl - space : yabai -m window --toggle zoom-fullscreen
+shift + ctrl - space : yabai -m space --balance
+
+# shift + ctrl - h : yabai -m window --resize right:80:0
+# shift + ctrl - f : yabai -m window --resize left:-80:0
+# shift + ctrl - t : yabai -m window --resize top:0:-80
+# shift + ctrl - g : yabai -m window --resize bottom:0:80
+
+shift + ctrl - j : yabai -m window --resize right:-100:0 || yabai -m window --resize left:-100:0
+shift + ctrl - l : yabai -m window --resize right:100:0 || yabai -m window --resize left:100:0
+shift + ctrl - i : yabai -m window --resize top:0:-100 || yabai -m window --resize bottom:0:-100
+shift + ctrl - k : yabai -m window --resize top:0:100 || yabai -m window --resize bottom:0:100
+
+# Moving Windows Around
+shift + ctrl + alt - k : yabai -m window --warp south
+shift + ctrl + alt - i : yabai -m window --warp north
+shift + ctrl + alt - j : yabai -m window --warp west
+shift + ctrl + alt - l : yabai -m window --warp east
+
+# shift + alt - s : yabai -m window --display west; yabai -m display --focus west;
+# shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
+
+# Moving Windows to Different Spaces
+# shift + alt - p : yabai -m window --space prev
+# shift + alt - n : yabai -m window --space next
+
+ctrl + shift + alt - 1 : yabai -m window --space 1
+ctrl + shift + alt - 2 : yabai -m window --space 2
+ctrl + shift + alt - 3 : yabai -m window --space 3
+ctrl + shift + alt - 4 : yabai -m window --space 4
+ctrl + shift + alt - 5 : yabai -m window --space 5
+
+# Moving to Different Spaces
+shift + ctrl - 1 : yabai -m space --focus 1
+shift + ctrl - 2 : yabai -m space --focus 2
+shift + ctrl - 3 : yabai -m space --focus 3
+shift + ctrl - 4 : yabai -m space --focus 4
+shift + ctrl - 5 : yabai -m space --focus 5
+
+# Start/Stopping Yabai
+ctrl + shift + alt - w : sudo yabai --load-sa
+ctrl + shift + alt - q : yabai --stop-service
+ctrl + shift + alt - r : yabai --start-service

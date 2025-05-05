@@ -1,0 +1,81 @@
+
+2024/12/20 (22:32:26) | ===> btop++ v.1.4.0
+2024/12/20 (22:32:26) | ERROR: Exception during Config::unlock() : unordered_map::at: key not found
+
+2024/12/20 (22:33:11) | ===> btop++ v.1.4.0
+2024/12/20 (22:33:11) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:34:48) | ===> btop++ v.1.4.0
+2024/12/20 (22:34:48) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:35:25) | ===> btop++ v.1.4.0
+2024/12/20 (22:35:25) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:35:45) | ===> btop++ v.1.4.0
+2024/12/20 (22:35:45) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:38:38) | ===> btop++ v.1.4.0
+2024/12/20 (22:38:38) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:38:54) | ===> btop++ v.1.4.0
+2024/12/20 (22:38:54) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:39:24) | ===> btop++ v.1.4.0
+2024/12/20 (22:39:24) | WARNING: Malformatted preset in config value presets!
+
+2024/12/20 (22:39:49) | ===> btop++ v.1.4.0
+2024/12/20 (22:39:49) | WARNING: Malformatted preset in config value presets!
+
+2024/12/21 (16:23:40) | ===> btop++ v.1.4.0
+2024/12/21 (16:23:40) | WARNING: Malformatted preset in config value presets!
+
+2024/12/21 (17:11:20) | ===> btop++ v.1.4.0
+2024/12/21 (17:11:20) | WARNING: Malformatted preset in config value presets!
+
+2024/12/21 (21:07:24) | ===> btop++ v.1.4.0
+2024/12/21 (21:07:24) | WARNING: Malformatted preset in config value presets!
+
+2024/12/22 (12:27:32) | ===> btop++ v.1.4.0
+2024/12/22 (12:27:32) | WARNING: Malformatted preset in config value presets!
+
+2024/12/22 (12:28:19) | ===> btop++ v.1.4.0
+2024/12/22 (12:28:19) | WARNING: Malformatted preset in config value presets!
+2024/12/22 (15:45:56) | ERROR: failed getting network interfaces
+2024/12/22 (15:47:23) | ERROR: failed getting network interfaces
+
+2024/12/24 (10:08:27) | ===> btop++ v.1.4.0
+2024/12/24 (10:08:27) | WARNING: Malformatted preset in config value presets!
+2024/12/26 (22:01:51) | ERROR: failed getting network interfaces
+
+2024/12/27 (16:46:44) | ===> btop++ v.1.4.0
+2024/12/27 (16:46:44) | WARNING: Malformatted preset in config value presets!
+
+2024/12/28 (09:32:43) | ===> btop++ v.1.4.0
+2024/12/28 (09:32:43) | WARNING: Malformatted preset in config value presets!
+
+2024/12/28 (12:58:59) | ===> btop++ v.1.4.0
+2024/12/28 (12:58:59) | WARNING: Malformatted preset in config value presets!
+
+2024/12/28 (15:23:19) | ===> btop++ v.1.4.0
+2024/12/28 (15:23:19) | WARNING: Malformatted preset in config value presets!
+
+2024/12/28 (16:37:03) | ===> btop++ v.1.4.0
+2024/12/28 (16:37:03) | ERROR: Invalid size of hex value: fff
+
+2024/12/28 (16:37:16) | ===> btop++ v.1.4.0
+2024/12/28 (16:37:16) | ERROR: Invalid size of hex value: 000
+
+2024/12/28 (16:37:24) | ===> btop++ v.1.4.0
+2024/12/28 (16:37:24) | ERROR: Invalid size of hex value: f00
+
+2025/01/12 (18:09:34) | ===> btop++ v.1.4.0
+2025/01/12 (18:09:34) | ERROR: failed getting network interfaces
+
+2025/01/15 (05:24:53) | ===> btop++ v.1.4.0
+2025/01/15 (05:24:53) | ERROR: failed getting network interfaces
+
+2025/04/10 (23:11:25) | ===> btop++ v.1.4.0
+2025/04/10 (23:11:25) | ERROR: Stall in Runner thread, restarting!
+
+2025/04/26 (21:55:31) | ===> btop++ v.1.4.0
+2025/04/26 (21:55:31) | ERROR: Stall in Runner thread, restarting!

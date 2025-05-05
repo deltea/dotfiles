@@ -1,0 +1,71 @@
+#!/bin/sh
+
+# colors & icons
+source "$HOME/.config/colors.sh"
+source "$HOME/.config/icons.sh"
+
+# directories
+ITEM_DIR="$HOME/.config/sketchybar/items"
+PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
+SETTING_DIR="$HOME/.config/sketchybar/setting"
+
+# bar settings
+source "$SETTING_DIR/bar.sh"
+
+# default item settings
+source "$SETTING_DIR/defaults.sh"
+
+# ---------- add left items ----------
+source "$ITEM_DIR/logo.sh"
+
+sketchybar --add item separator.l1 left \
+           --set separator.l1 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/window_title.sh"
+
+sketchybar --add item separator.l3 left \
+           --set separator.l3 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/spaces.sh"
+
+sketchybar --add item separator.l2 left \
+           --set separator.l2 script="$PLUGIN_DIR/separator.sh"
+
+# ---------- add center items ----------
+source "$ITEM_DIR/music.sh"
+
+# ---------- add right items ----------
+source "$ITEM_DIR/clock.sh"
+
+sketchybar --add item separator.r1 right \
+           --set separator.r1 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/date.sh"
+
+sketchybar --add item separator.r2 right \
+           --set separator.r2 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/wifi.sh"
+
+sketchybar --add item separator.r3 right \
+           --set separator.r3 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/volume.sh"
+
+sketchybar --add item separator.r4 right \
+           --set separator.r4 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/battery.sh"
+
+sketchybar --add item separator.r5 right \
+           --set separator.r5 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/brightness.sh"
+
+sketchybar --add item separator.r6 right \
+           --set separator.r6 script="$PLUGIN_DIR/separator.sh"
+
+source "$ITEM_DIR/bluetooth.sh"
+
+# finalize bar
+sketchybar --update

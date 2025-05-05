@@ -1,0 +1,44 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+add_newline = true
+
+format = """
+╭─ $directory$git_branch$git_status $nodejs$fill $username$time
+╰─ $character
+"""
+
+[username]
+disabled = false
+show_always = true
+format = "[$user]($style) "
+
+[character]
+success_symbol = "[›](bold blue)"
+error_symbol = "[›](bold blue)"
+
+[package]
+disabled = true
+
+[git_status]
+disabled = false
+modified = "+"
+deleted = "-"
+format ="[\\($modified$deleted\\)](bold purple)"
+
+[time]
+disabled = false
+format = "at [$time](bold blue)"
+time_format = "%I:%M %p"
+
+[directory]
+disabled = false
+truncation_length = 0
+truncate_to_repo = true
+
+[fill]
+disabled = false
+symbol = "• "
+style = "bold black"
+
+[nodejs]
+disabled = false

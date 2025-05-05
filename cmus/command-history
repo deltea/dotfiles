@@ -1,0 +1,16 @@
+quit
+set lib_sort=albumartist date album discnumber tracknumber title filename play_count
+set softvol=true
+set dsp.coreaudio.sync_sample_rate=fals
+set dsp.coreaudio.enable_hog_mode=false
+set dsp.coreaudio.enable_hog_mode=true
+set dsp.coreaudio.sync_sample_rate=true
+set dsp.coreaudio.sync_sample_rate=false
+set softvol=false
+set pause_on_output_change=true
+pl-import ~/Music/😈 aggressive phonk
+set show_remaining_time=false
+set show_remaining_time=true
+add
+help
+add ~/Music/Howl's Moving Castle [OST - Theme Song].mp3
