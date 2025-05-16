@@ -9,7 +9,7 @@ for i in "${!SPACE_ICONS[@]}"; do
     icon.drawing=on
     icon.padding_left=6
     icon.padding_right=12
-    icon.font="JetBrainsMono Nerd Font:Bold:20.0" 
+    icon.font="JetBrainsMono Nerd Font:Bold:20.0"
     background.color=$COLOR_ACCENT_3
   )
 

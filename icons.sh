@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export SPACE_ICONS=("" "" "" "" "")
+export SPACE_ICONS=("" "" "" "" "" "" "" "" "" "")
 
 export ICON_WIFI=""
 export ICON_WIFI_OFF=""
