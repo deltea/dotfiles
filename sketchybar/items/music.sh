@@ -10,7 +10,7 @@ if [[ "$CURRENT_MONITOR" == "$MONITOR_UUID" ]]; then
                          label.max_chars=100 \
                          icon.drawing=on \
                          icon.font="JetBrainsMono Nerd Font:Bold:12.0" \
-                         background.color=$COLOR_ACCENT_3
+                         background.color=$COLOR_FADED
 # else
 fi
 # sketchybar --add item music q \
@@ -21,10 +21,10 @@ fi
 #                       image.drawing=on \
 #                       background.image=media.artwork \
 #                       background.image.corner_radius=10 \
-#                       background.color=$COLOR_ACCENT_3
+#                       background.color=$COLOR_FADED
 
 # sketchybar --add item music_indicator e \
 #           --subscribe music_indicator media_change \
 #           --set music_indicator script="$PLUGIN_DIR/music.sh" \
 #                       icon.drawing=on \
-#                       background.color=$COLOR_ACCENT_3
+#                       background.color=$COLOR_FADED

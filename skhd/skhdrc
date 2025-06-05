@@ -37,6 +37,9 @@ shift + ctrl + alt - l : yabai -m window --warp east
 # shift + alt - p : yabai -m window --space prev
 # shift + alt - n : yabai -m window --space next
 
+# Rotate windows
+shift + ctrl + alt - h : yabai -m space --rotate 270
+
 # Moving Windows to Different Spaces
 cmd + shift - 1 : yabai -m window --space 1
 cmd + shift - 2 : yabai -m window --space 2

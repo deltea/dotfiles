@@ -21,8 +21,7 @@ yabai -m config window_animation_duration 0 #0.2
 yabai -m config window_opacity_duration 0.2
 yabai -m config menubar_opacity 0.0
 
-
 yabai -m rule --add app="^System Settings$" manage=off
-# yabai -m rule --add app="^Ghostty$" opacity=0.95
+yabai -m rule --add app="^Preview$" opacity=0.95
 
-borders hidpi=on active_color="$COLOR_ACCENT_3" inactive_color=$COLOR_BG_3 width=6.0
+# borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=6.0

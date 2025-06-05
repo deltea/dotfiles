@@ -4,6 +4,6 @@ sketchybar --add item bluetooth right \
                            icon.drawing=on \
                            label.drawing=off \
                            icon.padding_right=12 \
-                           icon.color=$COLOR_FG_0 \
-                           background.color=$COLOR_ACCENT_3 \
+                           icon.color=$COLOR_FG \
+                           background.color=$COLOR_FADED \
                            icon=$ICON_HEADPHONES \

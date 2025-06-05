@@ -10,7 +10,7 @@ for i in "${!SPACE_ICONS[@]}"; do
     icon.padding_left=6
     icon.padding_right=12
     icon.font="JetBrainsMono Nerd Font:Bold:20.0"
-    background.color=$COLOR_ACCENT_3
+    background.color=$COLOR_FADED
   )
 
   sketchybar --add space space."$sid" left \
@@ -19,6 +19,6 @@ done
 
 # spaces bracket
 sketchybar --add bracket spaces "/space\..*/" \
-           --set spaces background.color=$COLOR_ACCENT_4 \
+           --set spaces background.color=$COLOR_F \
                         label.padding_left=4 \
                         label.padding_right=4

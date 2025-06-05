@@ -4,5 +4,5 @@ sketchybar --add item logo left \
                       label.drawing=off \
                       icon.padding_right=10.5 \
                       icon.padding_left=10.5 \
-                      background.color=$COLOR_FG_0 \
-                      icon.color=$COLOR_BG_1 \
+                      background.color=$COLOR_FG \
+                      icon.color=$COLOR_BG \
