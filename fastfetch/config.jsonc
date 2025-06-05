@@ -8,7 +8,7 @@
       "type": "string"
     },
     "disableLinewrap": true,
-    "color": "white"
+    "color": "blue"
   },
   "logo": {
     "type": "auto",

@@ -38,7 +38,7 @@ truncate_to_repo = true
 [fill]
 disabled = false
 symbol = "• "
-style = "bold black"
+style = "bold bright-black"
 
 [nodejs]
 disabled = false
