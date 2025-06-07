@@ -1,7 +1,5 @@
 source "$HOME/.config/colors.sh"
 
-# sudo yabai --load-sa
-
 yabai -m config layout bsp
 
 yabai -m config window_shadow off
@@ -16,12 +14,12 @@ yabai -m config top_padding 12
 yabai -m config bottom_padding 12
 yabai -m config external_bar all:40:0
 
-yabai -m config focus_follows_mouse autofocus
+# yabai -m config focus_follows_mouse autofocus
 yabai -m config window_animation_duration 0 #0.2
 yabai -m config window_opacity_duration 0.2
 yabai -m config menubar_opacity 0.0
 
 yabai -m rule --add app="^System Settings$" manage=off
-yabai -m rule --add app="^Preview$" opacity=0.95
+yabai -m rule --add app="^Preview$" manage=off
 
-# borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=6.0
+borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=4.0

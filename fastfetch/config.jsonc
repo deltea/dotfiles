@@ -41,7 +41,7 @@
     { "type": "terminal", "key": "terminal" },
     { "type": "terminalfont", "key": "font", "format": "{name" },
     { "type": "player", "key": "player" },
-    { "type": "media", "key": "music", "format": "{title} - {artist}" },
+    { "type": "media", "key": "media", "format": "{title} - {artist}" },
     { "type": "cpu", "key": "cpu" },
     { "type": "gpu", "key": "gpu" },
     { "type": "memory", "key": "memory" },
