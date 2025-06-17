@@ -22,4 +22,16 @@ yabai -m config menubar_opacity 0.0
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
 
+# godot floating windows
+yabai -m rule --add title="^Create New Node$" manage=off
+yabai -m rule --add title="^Save Scene As...$" manage=off
+yabai -m rule --add title="^Project Settings (project.godot)$" manage=off
+yabai -m rule --add title="^Quick Open...$" manage=off
+yabai -m rule --add title="^Command Palette$" manage=off
+yabai -m rule --add title="^Open Base Scene$" manage=off
+yabai -m rule --add title="^Open Scene$" manage=off
+yabai -m rule --add title="^Quick Open Scene...$" manage=off
+yabai -m rule --add title="^Create Folder$" manage=off
+yabai -m rule --add title="^Attach Node Script$" manage=off
+
 borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=4.0

@@ -1,14 +1,14 @@
 {
-  "LastBrowseCategoryId": -1.0,
+  "LastBrowseCategoryId": 298.0,
   "LastBrowseCategoryType": "artist",
   "LastBrowseDirectoryRoot": "/Users/leo/Music/",
   "LastBrowseFilter": "",
   "LastBrowseFilterVisible": false,
-  "LastCategoryFilter": "",
+  "LastCategoryFilter": "s3rl",
   "LastCategoryFilterMatchType": 1,
   "LastLibraryView": "Directory",
-  "LastPlayQueueIndex": 9,
-  "LastPlayQueueTime": 85.0,
-  "LastTrackFilter": "",
+  "LastPlayQueueIndex": 13,
+  "LastPlayQueueTime": 98.0,
+  "LastTrackFilter": "3:00",
   "LastTrackFilterMatchType": 1
 }

@@ -1,5 +1,5 @@
 {
-  "AppQuitKey": "^C",
+  "AppQuitKey": "^D",
   "AsyncTrackListQueries": true,
   "AuddioApiToken": "",
   "AutoHideCommandBar": true,
@@ -41,6 +41,6 @@
   "SaveSessionOnExit": true,
   "StartMinimized": false,
   "SyncOnStartup": true,
-  "TrackSearchSortOrder": 0,
+  "TrackSearchSortOrder": 4,
   "UsePaletteColors": false
 }
