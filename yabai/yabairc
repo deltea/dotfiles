@@ -26,12 +26,12 @@ yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add title="^Create New Node$" manage=off
 yabai -m rule --add title="^Save Scene As...$" manage=off
 yabai -m rule --add title="^Project Settings (project.godot)$" manage=off
-yabai -m rule --add title="^Quick Open...$" manage=off
+yabai -m rule --add title="^Select " manage=off
 yabai -m rule --add title="^Command Palette$" manage=off
 yabai -m rule --add title="^Open Base Scene$" manage=off
-yabai -m rule --add title="^Open Scene$" manage=off
 yabai -m rule --add title="^Quick Open Scene...$" manage=off
 yabai -m rule --add title="^Create Folder$" manage=off
 yabai -m rule --add title="^Attach Node Script$" manage=off
+yabai -m rule --add title="shovel jam 2025 (DEBUG)" manage=off
 
 borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=4.0

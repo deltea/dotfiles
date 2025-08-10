@@ -1,482 +1,77 @@
-17:19:57 [info] [LOG SESSION] ---------- START ----------
-17:19:57 [info] [PluginFactory] loading plugins
-17:19:57 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libsupereqdsp.dylib
-17:19:57 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libportaudioout.dylib
-17:19:57 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libmacosmediakeys.dylib
-17:19:57 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libtaglibreader.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libstockencoders.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libserver.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libopenmptdecoder.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libhttpdatastream.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libgmedecoder.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libnullout.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libffmpegdecoder.dylib
-17:19:58 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libcoreaudioout.dylib
-17:19:58 [info] [Indexer] indexer source 197490949 running...
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:58 [info] [Indexer] indexer source 197490949 finished
-17:19:58 [info] [Indexer] indexer source 1859739243 running...
-17:19:58 [info] [Indexer] indexer source 1859739243 finished
-17:19:58 [info] [Indexer] scanning /Users/leo/Music/
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:58 [info] [Indexer] scan completed successfully
-17:19:58 [info] [Indexer] cleanup 1/2
-17:19:58 [info] [Indexer] cleanup 2/2
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:58 [info] [Indexer] optimizing
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-17:19:58 [info] [Indexer] done!
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:58 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-17:19:58 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
-17:19:58 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
-17:19:58 [info] [macosmediakeys] listening to media keys
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' running
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' running
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' running
-17:19:58 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:19:58 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:19:58 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:19:58 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/Nightcore - Angel of Darkness.mp4yt.mp3
-17:19:58 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:19:58 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:19:58 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:19:58 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:19:58 [info] [Player] new instance created
-17:19:58 [info] [Stream] opening /Users/leo/Music/hype/Nightcore - Angel of Darkness.mp4yt.mp3
-17:19:58 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
-17:19:58 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
-17:19:58 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
-17:19:58 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
-17:19:58 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
-17:19:58 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Nightcore - Angel of Darkness.mp4yt.mp3
-17:19:58 [info] [ffmpegdecoder] parsing data stream...
-17:19:58 [info] [ffmpegdecoder] found audio stream!
-17:19:58 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:19:58 [info] [Streams] found a decoder for /Users/leo/Music/hype/Nightcore - Angel of Darkness.mp4yt.mp3
-17:19:58 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:19:59 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:19:59 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:20:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-17:20:00 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-17:20:01 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:20:01 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:20:01 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:20:03 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:20:03 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:20:03 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:20:03 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:20:03 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:20:03 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:20:03 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:20:03 [info] [Player] new instance created
-17:20:03 [info] [Stream] opening /Users/leo/Music/hype/HARDBASS - HELLTAKER Ost. (Cosmowave Remix).mp4yt.mp3
-17:20:03 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/HARDBASS - HELLTAKER Ost. (Cosmowave Remix).mp4yt.mp3
-17:20:03 [info] [ffmpegdecoder] parsing data stream...
-17:20:03 [info] [ffmpegdecoder] found audio stream!
-17:20:03 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:20:03 [info] [Streams] found a decoder for /Users/leo/Music/hype/HARDBASS - HELLTAKER Ost. (Cosmowave Remix).mp4yt.mp3
-17:20:03 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:20:06 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:20:06 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:20:06 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:20:06 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:20:06 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:20:06 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:20:06 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:20:06 [info] [Player] new instance created
-17:20:06 [info] [Stream] opening /Users/leo/Music/hype/KILL THE DANCEFLOOR.mp4yt.mp3
-17:20:06 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/KILL THE DANCEFLOOR.mp4yt.mp3
-17:20:06 [info] [ffmpegdecoder] parsing data stream...
-17:20:06 [info] [ffmpegdecoder] found audio stream!
-17:20:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:20:06 [info] [Streams] found a decoder for /Users/leo/Music/hype/KILL THE DANCEFLOOR.mp4yt.mp3
-17:20:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:20:09 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/KILL THE DANCEFLOOR.mp4yt.mp3
-17:20:09 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:20:09 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:20:09 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:20:09 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:20:09 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:20:09 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:20:09 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:20:09 [info] [Player] new instance created
-17:20:09 [info] [Stream] opening /Users/leo/Music/hype/Ms.Rave & Mr.Bounce (170 Hardcore Mix).webmyt.mp3
-17:20:09 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Ms.Rave & Mr.Bounce (170 Hardcore Mix).webmyt.mp3
-17:20:09 [info] [ffmpegdecoder] parsing data stream...
-17:20:09 [info] [ffmpegdecoder] found audio stream!
-17:20:09 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:20:09 [info] [Streams] found a decoder for /Users/leo/Music/hype/Ms.Rave & Mr.Bounce (170 Hardcore Mix).webmyt.mp3
-17:20:09 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:20:29 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:20:29 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:20:29 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:21:03 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:21:03 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:21:03 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:23:56 [info] [ffmpegdecoder] finished decoding.
-17:23:57 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:23:57 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:23:57 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:23:57 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:23:57 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:23:57 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:23:57 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:23:57 [info] [Player] new instance created
-17:23:57 [info] [Stream] opening /Users/leo/Music/hype/Super Mega Jumbo.mp4yt.mp3
-17:23:57 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Super Mega Jumbo.mp4yt.mp3
-17:23:57 [info] [ffmpegdecoder] parsing data stream...
-17:23:57 [info] [ffmpegdecoder] found audio stream!
-17:23:57 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:23:57 [info] [Streams] found a decoder for /Users/leo/Music/hype/Super Mega Jumbo.mp4yt.mp3
-17:23:57 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:24:17 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:24:17 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:24:17 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:27:09 [info] [ffmpegdecoder] finished decoding.
-17:27:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:27:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:27:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:27:10 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:27:10 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:27:10 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:27:10 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:27:10 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:27:10 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:27:10 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:27:10 [info] [Player] new instance created
-17:27:10 [info] [Stream] opening /Users/leo/Music/hype/ASTRO (Sped Up).mp4yt.mp3
-17:27:10 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/ASTRO (Sped Up).mp4yt.mp3
-17:27:10 [info] [ffmpegdecoder] parsing data stream...
-17:27:10 [info] [ffmpegdecoder] found audio stream!
-17:27:10 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:27:10 [info] [Streams] found a decoder for /Users/leo/Music/hype/ASTRO (Sped Up).mp4yt.mp3
-17:27:10 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:27:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:27:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:27:30 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:32:05 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/ASTRO (Sped Up).mp4yt.mp3
-17:32:05 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:32:05 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:32:05 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:32:05 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:32:05 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:32:05 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:32:05 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:32:05 [info] [Player] new instance created
-17:32:05 [info] [Stream] opening /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:32:05 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:32:05 [info] [ffmpegdecoder] parsing data stream...
-17:32:05 [info] [ffmpegdecoder] found audio stream!
-17:32:05 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:32:05 [info] [Streams] found a decoder for /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:32:05 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:32:25 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:32:25 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:32:25 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:34:11 [info] [ffmpegdecoder] finished decoding.
-17:34:12 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:34:12 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:34:12 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:34:12 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:34:12 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:34:12 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:34:12 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:34:12 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:34:12 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:34:12 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:34:12 [info] [Player] new instance created
-17:34:12 [info] [Stream] opening /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:12 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:12 [info] [ffmpegdecoder] parsing data stream...
-17:34:12 [info] [ffmpegdecoder] found audio stream!
-17:34:12 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:34:12 [info] [Streams] found a decoder for /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:12 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:34:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:34:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:34:32 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:34:42 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:42 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:34:42 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:34:42 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:34:42 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:34:42 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:34:42 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:34:42 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:34:42 [info] [Player] new instance created
-17:34:42 [info] [Stream] opening /Users/leo/Music/hype/RAV#GIRL.mp4yt.mp3
-17:34:42 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/RAV#GIRL.mp4yt.mp3
-17:34:42 [info] [ffmpegdecoder] parsing data stream...
-17:34:42 [info] [ffmpegdecoder] found audio stream!
-17:34:42 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:34:42 [info] [Streams] found a decoder for /Users/leo/Music/hype/RAV#GIRL.mp4yt.mp3
-17:34:42 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:34:43 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:34:43 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:34:43 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:34:43 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:34:43 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:34:43 [info] [Player] new instance created
-17:34:43 [info] [Stream] opening /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:34:43 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:34:43 [info] [ffmpegdecoder] parsing data stream...
-17:34:43 [info] [ffmpegdecoder] found audio stream!
-17:34:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:34:43 [info] [Streams] found a decoder for /Users/leo/Music/hype/Pretty Rave Girl 2010 - S3RL.mp4yt.mp3
-17:34:43 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:34:43 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:34:43 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:34:43 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:34:43 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:34:43 [info] [Player] new instance created
-17:34:43 [info] [Stream] opening /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:43 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:43 [info] [ffmpegdecoder] parsing data stream...
-17:34:43 [info] [ffmpegdecoder] found audio stream!
-17:34:43 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:34:43 [info] [Streams] found a decoder for /Users/leo/Music/hype/Bassline & Sexy.mp4yt.mp3
-17:34:43 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:35:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:35:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:35:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:37:52 [info] [ffmpegdecoder] finished decoding.
-17:37:53 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:37:53 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:37:53 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:37:53 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:37:53 [info] [Player] new instance created
-17:37:53 [info] [Stream] opening /Users/leo/Music/hype/RAV#GIRL.mp4yt.mp3
-17:37:53 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/RAV#GIRL.mp4yt.mp3
-17:37:53 [info] [ffmpegdecoder] parsing data stream...
-17:37:53 [info] [ffmpegdecoder] found audio stream!
-17:37:53 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:37:53 [info] [Streams] found a decoder for /Users/leo/Music/hype/RAV#GIRL.mp4yt.mp3
-17:37:53 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:38:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:38:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:38:13 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:41:05 [info] [ffmpegdecoder] finished decoding.
-17:41:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:41:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:41:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:41:06 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:41:06 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:41:06 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:41:06 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:41:06 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:41:06 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:41:06 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:41:06 [info] [Player] new instance created
-17:41:06 [info] [Stream] opening /Users/leo/Music/hype/Highscore.mp4yt.mp3
-17:41:06 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Highscore.mp4yt.mp3
-17:41:06 [info] [ffmpegdecoder] parsing data stream...
-17:41:06 [info] [ffmpegdecoder] found audio stream!
-17:41:06 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:41:06 [info] [Streams] found a decoder for /Users/leo/Music/hype/Highscore.mp4yt.mp3
-17:41:06 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:41:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:41:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:41:26 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:44:50 [info] [ffmpegdecoder] finished decoding.
-17:44:51 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:44:51 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:44:51 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:44:51 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:44:51 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:44:51 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:44:51 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:44:51 [info] [Player] new instance created
-17:44:51 [info] [Stream] opening /Users/leo/Music/hype/RUNNING IN THE 90S.mp4yt.mp3
-17:44:51 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/RUNNING IN THE 90S.mp4yt.mp3
-17:44:51 [info] [ffmpegdecoder] parsing data stream...
-17:44:51 [info] [ffmpegdecoder] found audio stream!
-17:44:51 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:44:51 [info] [Streams] found a decoder for /Users/leo/Music/hype/RUNNING IN THE 90S.mp4yt.mp3
-17:44:51 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:45:11 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:45:11 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:45:11 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:49:10 [info] [ffmpegdecoder] finished decoding.
-17:49:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:49:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:49:18 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:49:18 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:49:18 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:49:18 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:49:18 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:49:18 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:49:18 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:49:18 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:49:18 [info] [Player] new instance created
-17:49:18 [info] [Stream] opening /Users/leo/Music/hype/Rainmaker.mp4yt.mp3
-17:49:18 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Rainmaker.mp4yt.mp3
-17:49:18 [info] [ffmpegdecoder] parsing data stream...
-17:49:18 [info] [ffmpegdecoder] found audio stream!
-17:49:18 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:49:18 [info] [Streams] found a decoder for /Users/leo/Music/hype/Rainmaker.mp4yt.mp3
-17:49:18 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:49:21 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/Rainmaker.mp4yt.mp3
-17:49:21 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:49:21 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:49:21 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:49:21 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:49:21 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:49:21 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:49:21 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:49:21 [info] [Player] new instance created
-17:49:21 [info] [Stream] opening /Users/leo/Music/hype/Spitfire (Extended Version).mp4yt.mp3
-17:49:21 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Spitfire (Extended Version).mp4yt.mp3
-17:49:21 [info] [ffmpegdecoder] parsing data stream...
-17:49:21 [info] [ffmpegdecoder] found audio stream!
-17:49:21 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:49:21 [info] [Streams] found a decoder for /Users/leo/Music/hype/Spitfire (Extended Version).mp4yt.mp3
-17:49:21 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:49:41 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:49:41 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:49:41 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:52:51 [info] [ffmpegdecoder] finished decoding.
-17:52:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:52:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:52:52 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:52:52 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:52:52 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:52:52 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:52:52 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:52:52 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:52:52 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:52:52 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:52:52 [info] [Player] new instance created
-17:52:52 [info] [Stream] opening /Users/leo/Music/hype/How Do You Do (Nightcore).mp4yt.mp3
-17:52:52 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/How Do You Do (Nightcore).mp4yt.mp3
-17:52:52 [info] [ffmpegdecoder] parsing data stream...
-17:52:52 [info] [ffmpegdecoder] found audio stream!
-17:52:52 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:52:52 [info] [Streams] found a decoder for /Users/leo/Music/hype/How Do You Do (Nightcore).mp4yt.mp3
-17:52:52 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:53:02 [info] [CrossfadeTransport] trying to play /Users/leo/Music/hype/How Do You Do (Nightcore).mp4yt.mp3
-17:53:02 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:53:02 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:53:02 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:53:02 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:53:02 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:53:02 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:53:02 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:53:02 [info] [Player] new instance created
-17:53:02 [info] [Stream] opening /Users/leo/Music/hype/Nightcore - Cherry Gum (Lyrics).mp4yt.mp3
-17:53:02 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Nightcore - Cherry Gum (Lyrics).mp4yt.mp3
-17:53:02 [info] [ffmpegdecoder] parsing data stream...
-17:53:02 [info] [ffmpegdecoder] found audio stream!
-17:53:02 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:53:02 [info] [Streams] found a decoder for /Users/leo/Music/hype/Nightcore - Cherry Gum (Lyrics).mp4yt.mp3
-17:53:02 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-17:53:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-17:53:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-17:53:22 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
-17:56:06 [info] [ffmpegdecoder] finished decoding.
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-17:56:06 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-17:56:06 [info] [PortAudioOut] Pa_Initialize() return code: 0
-17:56:07 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-17:56:07 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-17:56:07 [info] [PortAudioOut] Pa_Terminate() return code: 0
-17:56:07 [info] [Player] new instance created
-17:56:07 [info] [Stream] opening /Users/leo/Music/hype/Running in the 90's.mp4yt.mp3
-17:56:07 [info] [LocalFileStream] opening file: /Users/leo/Music/hype/Running in the 90's.mp4yt.mp3
-17:56:07 [info] [ffmpegdecoder] parsing data stream...
-17:56:07 [info] [ffmpegdecoder] found audio stream!
-17:56:07 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-17:56:07 [info] [Streams] found a decoder for /Users/leo/Music/hype/Running in the 90's.mp4yt.mp3
-17:56:07 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-18:05:23 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
-18:05:23 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
-18:05:23 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:39:34 [info] [LOG SESSION] ---------- START ----------
+00:39:34 [info] [PluginFactory] loading plugins
+00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libsupereqdsp.dylib
+00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libportaudioout.dylib
+00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libmacosmediakeys.dylib
+00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libtaglibreader.dylib
+00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libstockencoders.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libserver.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libopenmptdecoder.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libhttpdatastream.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libgmedecoder.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libnullout.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libffmpegdecoder.dylib
+00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libcoreaudioout.dylib
+00:39:35 [info] [Indexer] indexer source 197490949 running...
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
+00:39:35 [info] [Indexer] indexer source 197490949 finished
+00:39:35 [info] [Indexer] indexer source 1859739243 running...
+00:39:35 [info] [Indexer] indexer source 1859739243 finished
+00:39:35 [info] [Indexer] scanning /Users/leo/Music/
+00:39:35 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+00:39:35 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
+00:39:35 [info] [Indexer] scan completed successfully
+00:39:35 [info] [Indexer] cleanup 1/2
+00:39:35 [info] [Indexer] cleanup 2/2
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
+00:39:35 [info] [Indexer] optimizing
+00:39:35 [info] [macosmediakeys] listening to media keys
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
+00:39:35 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+00:39:35 [info] [Indexer] done!
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
+00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+00:39:35 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+00:39:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+00:39:35 [info] [CrossfadeTransport] trying to play /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+00:39:35 [info] [PortAudioOut] Pa_Initialize() return code: 0
+00:39:35 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+00:39:35 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+00:39:35 [info] [PortAudioOut] Pa_Terminate() return code: 0
+00:39:35 [info] [Player] new instance created
+00:39:35 [info] [Stream] opening /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:39:35 [info] [LocalFileStream] opening file: /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' running
+00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+00:39:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+00:39:35 [info] [ffmpegdecoder] parsing data stream...
+00:39:35 [info] [ffmpegdecoder] found audio stream!
+00:39:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
+00:39:35 [info] [Streams] found a decoder for /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+00:39:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
