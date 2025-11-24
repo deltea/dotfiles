@@ -3,28 +3,13 @@ CURRENT_MONITOR=$(sketchybar --query displays | jq -r '.[0].UUID')
 
 echo "Detected UUID: $CURRENT_MONITOR"
 
-if [[ "$CURRENT_MONITOR" == "$MONITOR_UUID" ]]; then
+# if [[ "$CURRENT_MONITOR" == "$MONITOR_UUID" ]]; then
   sketchybar --add item music center \
              --subscribe music media_change \
              --set music script="$PLUGIN_DIR/music.sh" \
                          label.max_chars=100 \
                          icon.drawing=on \
+                         update_freq=1 \
                          icon.font="JetBrainsMono Nerd Font:Bold:12.0" \
                          background.color=$COLOR_FADED
-# else
-fi
-# sketchybar --add item music q \
-#           --subscribe music media_change \
-#           --set music script="$PLUGIN_DIR/music.sh" \
-#                       icon.drawing=off \
-#                       label.drawing=off \
-#                       image.drawing=on \
-#                       background.image=media.artwork \
-#                       background.image.corner_radius=10 \
-#                       background.color=$COLOR_FADED
-
-# sketchybar --add item music_indicator e \
-#           --subscribe music_indicator media_change \
-#           --set music_indicator script="$PLUGIN_DIR/music.sh" \
-#                       icon.drawing=on \
-#                       background.color=$COLOR_FADED
+# fi

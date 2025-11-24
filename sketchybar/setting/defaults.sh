@@ -15,5 +15,5 @@ sketchybar --default padding_left=0 \
                      label.highlight_color=$COLOR_BG \
                      label.padding_left=12 \
                      label.padding_right=12 \
-                     label.font="Cartograph CF:Heavy:12.0"
+                     label.font="JetBrainsMono Nerd Font:ExtraBold:12.5"
 

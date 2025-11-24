@@ -1,10 +1,6 @@
-[2025-08-03 00:39:34] [info] asio async_connect error: asio.system:61 (Connection refused)
-[2025-08-03 00:39:34] [info] Error getting remote endpoint: asio.system:22 (Invalid argument)
-[2025-08-03 00:39:34] [error] handle_connect error: Connection refused
-[2025-08-03 00:39:35] [info] asio async_connect error: asio.system:61 (Connection refused)
-[2025-08-03 00:39:35] [info] Error getting remote endpoint: asio.system:22 (Invalid argument)
-[2025-08-03 00:39:35] [error] handle_connect error: Connection refused
-[mp3float @ 0x156624c20] Could not update timestamps for skipped samples.
-[2025-08-03 00:39:44] [info] asio async_connect error: asio.system:61 (Connection refused)
-[2025-08-03 00:39:44] [info] Error getting remote endpoint: asio.system:22 (Invalid argument)
-[2025-08-03 00:39:44] [error] handle_connect error: Connection refused
+[2025-10-10 09:21:30] [info] asio async_connect error: asio.system:61 (Connection refused)
+[2025-10-10 09:21:30] [info] Error getting remote endpoint: asio.system:22 (Invalid argument)
+[2025-10-10 09:21:30] [error] handle_connect error: Connection refused
+[2025-10-10 09:21:30] [info] asio async_connect error: asio.system:61 (Connection refused)
+[2025-10-10 09:21:30] [info] Error getting remote endpoint: asio.system:22 (Invalid argument)
+[2025-10-10 09:21:30] [error] handle_connect error: Connection refused

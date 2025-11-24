@@ -1,77 +1,84 @@
-00:39:34 [info] [LOG SESSION] ---------- START ----------
-00:39:34 [info] [PluginFactory] loading plugins
-00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libsupereqdsp.dylib
-00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libportaudioout.dylib
-00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libmacosmediakeys.dylib
-00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libtaglibreader.dylib
-00:39:34 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libstockencoders.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libserver.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libopenmptdecoder.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libhttpdatastream.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libgmedecoder.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libnullout.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libffmpegdecoder.dylib
-00:39:35 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libcoreaudioout.dylib
-00:39:35 [info] [Indexer] indexer source 197490949 running...
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-00:39:35 [info] [Indexer] indexer source 197490949 finished
-00:39:35 [info] [Indexer] indexer source 1859739243 running...
-00:39:35 [info] [Indexer] indexer source 1859739243 finished
-00:39:35 [info] [Indexer] scanning /Users/leo/Music/
-00:39:35 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
-00:39:35 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-00:39:35 [info] [Indexer] scan completed successfully
-00:39:35 [info] [Indexer] cleanup 1/2
-00:39:35 [info] [Indexer] cleanup 2/2
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-00:39:35 [info] [Indexer] optimizing
-00:39:35 [info] [macosmediakeys] listening to media keys
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-00:39:35 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
-00:39:35 [info] [Indexer] done!
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
-00:39:35 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'SearchTrackListQuery' running
-00:39:35 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'TrackMetadataQuery' running
-00:39:35 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
-00:39:35 [info] [CrossfadeTransport] trying to play /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
-00:39:35 [info] [PortAudioOut] Pa_Initialize() return code: 0
-00:39:35 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
-00:39:35 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
-00:39:35 [info] [PortAudioOut] Pa_Terminate() return code: 0
-00:39:35 [info] [Player] new instance created
-00:39:35 [info] [Stream] opening /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' running
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' running
-00:39:35 [info] [LocalFileStream] opening file: /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' running
-00:39:35 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
-00:39:35 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
-00:39:35 [info] [ffmpegdecoder] parsing data stream...
-00:39:35 [info] [ffmpegdecoder] found audio stream!
-00:39:35 [info] [ffmpegdecoder] resolved codec: MP3 (MPEG audio layer 3)
-00:39:35 [info] [Streams] found a decoder for /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
-00:39:35 [warning] [ffmpegdecoder] invalid packet detected, discarding.
-00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
-00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
-00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
-00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
-00:39:35 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+09:21:30 [info] [LOG SESSION] ---------- START ----------
+09:21:30 [info] [PluginFactory] loading plugins
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libsupereqdsp.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libportaudioout.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libmacosmediakeys.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libtaglibreader.dylib
+09:21:30 [error] [PluginFactory] exception while loading plugin /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libstockencoders.dylib: dlopen(/opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libstockencoders.dylib, 0x0004): Library not loaded: /opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib
+  Referenced from: <7DF76B74-77D9-375C-8945-A51092155A3E> /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libstockencoders.dylib
+  Reason: tried: '/opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib' (no such file), '/opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib' (no such file), '/opt/homebrew/Cellar/ffmpeg/8.0_1/lib/libavcodec.61.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/ffmpeg/8.0_1/lib/libavcodec.61.dylib' (no such file), '/opt/homebrew/Cellar/ffmpeg/8.0_1/lib/libavcodec.61.dylib' (no such file)
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libserver.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libopenmptdecoder.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libhttpdatastream.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libgmedecoder.dylib
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libnullout.dylib
+09:21:30 [error] [PluginFactory] exception while loading plugin /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libffmpegdecoder.dylib: dlopen(/opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libffmpegdecoder.dylib, 0x0004): Library not loaded: /opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib
+  Referenced from: <1249183B-D6D8-3A4D-8435-12B9DDC05282> /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libffmpegdecoder.dylib
+  Reason: tried: '/opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib' (no such file), '/opt/homebrew/opt/ffmpeg/lib/libavcodec.61.dylib' (no such file), '/opt/homebrew/Cellar/ffmpeg/8.0_1/lib/libavcodec.61.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/ffmpeg/8.0_1/lib/libavcodec.61.dylib' (no such file), '/opt/homebrew/Cellar/ffmpeg/8.0_1/lib/libavcodec.61.dylib' (no such file)
+09:21:30 [info] [PluginFactory] loaded: /opt/homebrew/Cellar/musikcube/3.0.4_1/share/musikcube/plugins/libcoreaudioout.dylib
+09:21:30 [info] [Indexer] indexer source 197490949 running...
+09:21:30 [info] [Indexer] indexer source 197490949 finished
+09:21:30 [info] [Indexer] indexer source 1859739243 running...
+09:21:30 [info] [Indexer] indexer source 1859739243 finished
+09:21:30 [info] [Indexer] scanning /Users/leo/Music/
+09:21:30 [info] [Indexer] scanning /Users/leo/Library/Mobile Documents/com~apple~CloudDocs/music/
+09:21:30 [info] [Indexer] scan completed successfully
+09:21:30 [info] [Indexer] cleanup 1/2
+09:21:30 [info] [Indexer] cleanup 2/2
+09:21:30 [info] [Indexer] optimizing
+09:21:30 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+09:21:30 [info] [Indexer] done!
+09:21:30 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+09:21:30 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+09:21:30 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+09:21:30 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+09:21:30 [info] [macosmediakeys] listening to media keys
+09:21:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+09:21:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' running
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' running
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' running
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' running
+09:21:30 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+09:21:30 [info] [CrossfadeTransport] trying to play /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:30 [info] [PortAudioOut] Pa_Initialize() return code: 0
+09:21:30 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+09:21:30 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+09:21:30 [info] [PortAudioOut] Pa_Terminate() return code: 0
+09:21:30 [info] [Player] new instance created
+09:21:30 [info] [Stream] opening /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+09:21:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+09:21:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+09:21:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+09:21:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+09:21:30 [info] [LocalFileStream] opening file: /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:30 [error] [Streams] nothing could open /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:33 [info] [CrossfadeTransport] trying to play /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:33 [info] [PortAudioOut] Pa_Initialize() return code: 0
+09:21:33 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+09:21:33 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+09:21:33 [info] [PortAudioOut] Pa_Terminate() return code: 0
+09:21:33 [info] [Player] new instance created
+09:21:33 [info] [Stream] opening /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:33 [info] [LocalFileStream] opening file: /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:33 [error] [Streams] nothing could open /Users/leo/Music/garage mixtape/mixing sugar w⧸ k-pop + ukg + jersey club.mp3
+09:21:35 [info] [CrossfadeTransport] trying to play /Users/leo/Music/garage mixtape/some more cozy garage - bouncy ukg⧸house⧸2-step vibe mix by Px.mp3
+09:21:35 [info] [PortAudioOut] Pa_Initialize() return code: 0
+09:21:35 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+09:21:35 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+09:21:35 [info] [PortAudioOut] Pa_Terminate() return code: 0
+09:21:35 [info] [Player] new instance created
+09:21:35 [info] [Stream] opening /Users/leo/Music/garage mixtape/some more cozy garage - bouncy ukg⧸house⧸2-step vibe mix by Px.mp3
+09:21:35 [info] [LocalFileStream] opening file: /Users/leo/Music/garage mixtape/some more cozy garage - bouncy ukg⧸house⧸2-step vibe mix by Px.mp3
+09:21:35 [error] [Streams] nothing could open /Users/leo/Music/garage mixtape/some more cozy garage - bouncy ukg⧸house⧸2-step vibe mix by Px.mp3
