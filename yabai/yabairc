@@ -1,6 +1,6 @@
 source "$HOME/.config/colors.sh"
 
-yabai -m config layout bsp
+# yabai -m config layout bsp
 
 yabai -m config window_shadow off
 yabai -m config window_opacity on
@@ -34,4 +34,4 @@ yabai -m rule --add title="^Create Folder$" manage=off
 yabai -m rule --add title="^Attach Node Script$" manage=off
 yabai -m rule --add title="shovel jam 2025 (DEBUG)" manage=off
 
-borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=4.0
+# borders hidpi=on active_color="$COLOR_FADED" inactive_color=$COLOR_BG width=4.0
